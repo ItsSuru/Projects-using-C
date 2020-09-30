@@ -29,14 +29,14 @@ break;
 else
 {
 printf("\n=======================================\n");
-printf("Login Failed \n Again ");
+printf("Login Failed \n Please try Again ");
 printf("\n=======================================\n");
 printf("\n=======================================\n");
 }
 }
 return 0;
 }
-int swaraj()
+int classes()
 {
     int hour, minute, second;
     hour=minute=second=0;
@@ -103,6 +103,6 @@ int swaraj()
 int main()
 {
 password();    
-swaraj();   
+classes();   
 }
 
